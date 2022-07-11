@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+}
+
+header {
+  position: absolute;
+  top: 51px;
+  width: 100%;
+  height: 196px;
+  background-color: #2d667c;
+  color: #eceaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header img {
+  height: 265px;
+  width: 265px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-right: 60px;
+}
+
+header .desc {
+  padding-left: 20px;
+}
+
+header .desc h3 {
+  margin-left: 13px;
+}
+
+main {
+  margin-right: 0px !important;
+}
+
+main .aside {
+  color: #fff;
+  background-color: #1c2827;
+}
+
+main .aside .contacts {
+  padding-top: 331px;
+  margin-left: 23px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+main .aside .contacts .gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .aside .contacts a {
+  color: #ece5e5;
+  text-decoration: none;
+}
+
+main .aside .contacts::after {
+  content: "";
+  width: 90%;
+  height: 2.5px;
+  background-color: #ece5e5;
+  position: absolute;
+  top: 607px;
+  left: 2%;
+}
+
+main .aside i {
+  color: #ece5e5;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+main .aside .skills, main .aside .awards, main .aside .certf, main .aside .inters {
+  margin-left: 23px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+main .aside .skills li, main .aside .awards li, main .aside .certf li, main .aside .inters li {
+  padding-bottom: 5px;
+}
+
+main .aside .skills p, main .aside .awards p, main .aside .certf p, main .aside .inters p {
+  padding-left: 12px;
+}
+
+main .aside .skills h2, main .aside .awards h2, main .aside .certf h2, main .aside .inters h2 {
+  margin-bottom: 27px;
+}
+
+main .aside .skills {
+  position: relative;
+}
+
+main .aside .skills::after {
+  content: "";
+  width: 90%;
+  height: 2.5px;
+  background-color: #ece5e5;
+  position: absolute;
+  top: 116%;
+  left: 0%;
+}
+
+main .aside .awards {
+  position: relative;
+}
+
+main .aside .awards::after {
+  content: "";
+  width: 89%;
+  height: 2.5px;
+  background-color: #ece5e5;
+  position: absolute;
+  top: 138%;
+  left: 0%;
+}
+
+main .aside .certf::after {
+  content: "";
+  width: 88%;
+  height: 2.5px;
+  background-color: #ece5e5;
+  position: absolute;
+  top: 136%;
+  left: 1%;
+}
+
+main .main .obj {
+  padding-top: 331px;
+  margin-left: 23px;
+  margin-bottom: 64px;
+  position: relative;
+  font-size: 18px;
+}
+
+main .main .edu {
+  margin-top: 30px;
+  margin-left: 23px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+main .main .edu::after {
+  content: "";
+  width: 69%;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 2%;
+  right: 0%;
+}
+
+main .main .edu li {
+  font-size: 20PX;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+main .main .edu p {
+  color: #888;
+}
+
+main .main .edu .univ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .main .edu .univ p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .main .work {
+  margin-top: 30px;
+  margin-left: 23px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+main .main .work::after {
+  content: "";
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 4%;
+  right: 0%;
+}
+
+main .main li {
+  font-size: 20PX;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+main .main p.right {
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-right: 70%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .actv {
+  margin-top: 30px;
+  margin-left: 23px;
+  position: relative;
+}
+
+main .actv::after {
+  content: "";
+  width: 76%;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 8%;
+  right: 0%;
+}
+
+main .actv li {
+  font-size: 20PX;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+main .actv p.right {
+  display: inline-block;
+  margin-right: 70%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (min-width: 840px) {
+  .work::after {
+    width: 58%;
+  }
+}
+
+@media (max-width: 840px) {
+  .work::after {
+    width: 48%;
+  }
+}
+
+@media (max-width: 450px) {
+  header img {
+    height: 181px;
+    width: 181px;
+  }
+  .work::after {
+    width: 38%;
+    top: 2.4%;
+  }
+  .edu::after {
+    width: 67%;
+    top: 1.5%;
+  }
+  .actv::after {
+    width: 74%;
+    top: 5%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
